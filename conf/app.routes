@@ -1,0 +1,9 @@
+# microservice specific routes
+
+#Release note URLs
+GET         /add-a-service                             uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.getAddAService
+POST        /add-a-service                             uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.submitAddAService
+GET         /service-list                              uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.getServiceList
+GET         /service-release-notes/:serviceName        uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.getServiceReleaseNotes(serviceName:String)
+GET         /get-repo-release-notes/:repoName          uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.getRepoReleaseNotes(repoName: String)
+GET         /repo-list/                                uk.gov.hmrc.ReleaseNotes.controllers.ReleaseRepoController.getRepoList
