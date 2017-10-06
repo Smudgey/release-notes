@@ -1,8 +1,8 @@
 # Release Notes
 
-This repo is the result of the Worthing Hackathon day on 19th July 2017.
+This repo is the result of the Worthing Hackathon day on 19th July 2017. It's a place to store release notes for services from HMRC's Tax Platform
 
-This project is a rough prototype and can be run with the following command:
+This project is a prototype and can be run with the following command:
 ```
 sbt run
 ```
